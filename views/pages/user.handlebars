@@ -1,0 +1,25 @@
+<div class="container">
+    <form method="POST"> 
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username" value={{user.username}}>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" value={{user.email}}>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password</label>
+            <input type="password" class="form-control" id="pwd" name="pwd" value={{user.pwd}}>
+        </div>
+        <div class="form-group">
+            <label for="vfypwd">Verify password</label>
+            <input type="password" class="form-control" id="vfypwd" name="vfypwd" value={{user.vfypwd}}>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="text" class="form-control" id="phone" name="phone" value={{user.phone}}>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Update</button>
+    </form>
+</div>
